@@ -52,6 +52,11 @@ wreq-util = { version = "0.2.0", features = ["emulation-serde", "tokio-rt", "emu
 [dev-dependencies]
 btls = "0.5.6"
 
+# rustyTLS: use the local fork (../../rustyTLS, checked out at the 0.16.x line, e.g. tag v0.16.4)
+# instead of wreq from crates.io. Also applies to wreq-util, so there is only one wreq in the graph.
+[patch.crates-io]
+wreq = { path = "../../rustyTLS" }
+
 [profile.release]
 opt-level = 3
 lto = true

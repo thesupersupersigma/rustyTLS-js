@@ -1,3 +1,9 @@
+> **rustyTLS-js — fork of [sqdshguy/wreq-js](https://github.com/sqdshguy/wreq-js)** by thesupersupersigma.
+> Node bindings for [rustyTLS](https://github.com/thesupersupersigma/rustyTLS) (our fork of wreq), built from the local
+> `../rustyTLS` checkout via `[patch.crates-io]` in `rust/Cargo.toml`. This is the TLS-impersonation layer of
+> [RECONSUMΣT.TS](https://github.com/thesupersupersigma/RECONSUMET.TS). The npm package is still named `wreq-js` until the
+> rename. License unchanged: MIT (see [LICENSE](LICENSE)); the original README follows.
+
 # wreq-js
 
 [![npm](https://img.shields.io/npm/v/wreq-js.svg)](https://www.npmjs.com/package/wreq-js)
